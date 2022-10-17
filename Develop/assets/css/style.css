@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* header font and background color */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,18 @@ header {
     color: #ffffff;
 }
 
+/* Horiseon text alignment */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* makes the "seo" different color than the other text */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* separates title and sub catories from the main body of UI */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +36,29 @@ header div {
     font-size: 20px;
 }
 
+/* groups the anchor tags together */
 header div ul {
     list-style-type: none;
 }
 
+/* link in headers to redirect to page */
 header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* text color for anchor tags */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* paragraph text size */
 p {
     font-size: 16px;
 }
 
+/* main image and details */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +68,7 @@ p {
     background-position: center;
 }
 
+/* allows the webpage text to preference */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +79,14 @@ p {
     margin-left: 25px;
 }
 
+/* places the information aside and not below */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* puts everythign related to benefits onto the right */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +98,64 @@ p {
     background-color: #2589bd;
 }
 
+/* color and size */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* color and size */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* color and size */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* positioning and size */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* positioning and size */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* positioning and size */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* alignment and size */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* alignment and size */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* alignment and size */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* shows what happens when pressing the topic */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +165,7 @@ p {
     color: #ffffff;
 }
 
+/* shows what happens when pressing the topic */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +175,7 @@ p {
     color: #ffffff;
 }
 
+/* shows what happens when pressing the topic */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +185,40 @@ p {
     color: #ffffff;
 }
 
+/* image max height */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* image max height */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* image max height */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* text placement and size */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* text placement and size */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* h2 font details */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* footer font */
 footer {
     padding: 30px;
     clear: both;
@@ -195,6 +226,7 @@ footer {
     text-align: center;
 }
 
+/* footer heading font size */
 footer h2 {
     font-size: 20px;
 }
