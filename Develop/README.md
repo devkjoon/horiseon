@@ -6,13 +6,11 @@ This project was modified to clear up unnecessary code by replacing with semanti
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![Screenshot (1)](https://user-images.githubusercontent.com/114375310/196312359-5edb2ff4-0f27-4c01-ac32-3fd8356bd014.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+Also located in assets/images/website-preview
+
 
 ## Changes
 
